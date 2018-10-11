@@ -1,0 +1,31 @@
+body {
+  background: white;
+}
+
+div#game-field {
+  background: white;
+  border: #999 1px solid;
+  width: 800px;
+  height: 490px;
+  padding: 24px;
+  margin: 0px auto;
+}
+
+div#game-field > div {
+  //background: url(tile_bg.png) no-repeat;
+  background-color: maroon;
+  border: #000 1px solid;
+  width: 71px;
+  height: 101px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
+}
+
+h1 {
+  color: maroon;
+  text-align: center;
+}
